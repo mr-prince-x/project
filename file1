@@ -130,16 +130,10 @@ INSERT INTO `reptads` (`repid`, `repads`, `numberr`) VALUES
 (18, '468x60', '1'),
 (19, '728x15', '0'),
 (20, '728x90', '4'),
-(21, '990x90', '0');
-");
+(21, '990x90', '0
+);
 
-$mysqli->query("
-CREATE TABLE IF NOT EXISTS `settings` (
-  `id` int(32) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `name` varchar(50) NOT NULL,
-  `value` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-");
+Hi Hello Welcome to Github
 
 $mysqli->query("
 INSERT INTO `settings` (`id`, `name`, `value`) VALUES
